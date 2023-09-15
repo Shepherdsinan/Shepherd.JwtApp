@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Shepherd.JwtApp.Back;
 [Route("api/[controller]")]
 [ApiController]
-public class CategoriesController : Controller
+public class CategoriesController : ControllerBase
 {
     private readonly IMediator mediator;
 
